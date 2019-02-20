@@ -10,7 +10,7 @@ use warnings;
 ### config
 
 use constant COMMAND => 'xdg-open %s';
-use constant YANK_COMMAND => 'echo %s | xclip -i';
+use constant YANK_COMMAND => 'echo %s | xsel -b';
 
 use constant SHOW_STATUS_BAR => 1;
 use constant VERBOSE_MESSAGES => 0;
@@ -18,9 +18,9 @@ use constant TMUX_WINDOW_TITLE => 'Select URL';
 use constant TMUX_WINDOW_ID => 9999;
 use constant HIDE_WINDOW => 1;
 
-use constant PROMPT_COLOR => "\033[42;30m";
-use constant ACTIVE_LINK_HIGHLIGHT => "\033[44;4m";
-use constant NORMAL_LINK_HIGHLIGHT => "\033[94;1;4m";
+use constant PROMPT_COLOR => "\033[48;5;237m\033[90m";
+use constant ACTIVE_LINK_HIGHLIGHT => "\033[48;5;237m\033[33m\033[1m";
+use constant NORMAL_LINK_HIGHLIGHT => "\033[4m";
 
 # other options:
 # - blue background, underlined: \033[44;4m
