@@ -13,5 +13,5 @@ Place `tmux-url-select.pl` somewhere in your PATH, then bind a key to run it:
 
 Or install with [TPM][tpm].
 
-[upstream](https://github.com/dequis/tmux-url-select)
-[tpm](https://github.com/tmux-plugins/tpm)
+[upstream]: https://github.com/dequis/tmux-url-select
+[tpm]: https://github.com/tmux-plugins/tpm
